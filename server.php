@@ -75,10 +75,10 @@ function historiquePointageByEmploye($idUser){
 function getConnexion(){
     
    // DB Params
-   $host = 'eu-cdbr-west-01.cleardb.com';
-   $db_name = 'heroku_a3894e96ef66a54';
-   $username = 'b65935b93ea165';
-   $password = '5c16d5c4';
+    $host = 'us-cdbr-east-04.cleardb.com';
+   $db_name = 'heroku_abde6316f609ed5';
+   $username = 'b4a84a4b9166f9';
+   $password = '8e08be0f';
    $conn;
 
   // DB Connect

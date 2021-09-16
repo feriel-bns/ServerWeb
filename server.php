@@ -5,7 +5,7 @@ define("URL", str_replace("index.php","",(isset($_SERVER['HTTPS'])? "https" : "h
 function authentification($user_name,$user_pass){
     $pdo = getConnexion();
 
-$req = "select login,motdepasse from utilisateur where login like '$user_name' and  motdepasse like '$user_pass';";
+$req = "select username,password from compte  where login like '$user_name' and  motdepasse like '$user_pass';";
 //$stmt = $pdo->prepare($req);
 //$stmt->execute();
 if ($stmt = mysqli_prepare($pdo, $req)) {

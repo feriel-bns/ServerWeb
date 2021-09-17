@@ -13,7 +13,7 @@
 
 $user_name =$_GET['username'] ;                                    
 $user_pass = $_GET['password'];
-   $req = "select username,password from heroku_abde6316f609ed5.compte where username like '$user_name' and  password like '$user_pass';";
+   $req = "select username,password from compte where username like '$user_name' and  password like '$user_pass';";
 
 if ($stmt = mysqli_prepare($pdo, $req)) {
 

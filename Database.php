@@ -1,10 +1,10 @@
 <?php
     class Database {
         // DB Params
-         $host = 'us-cdbr-east-04.cleardb.com';
-   $db_name = 'heroku_abde6316f609ed5';
-   $username = 'b4a84a4b9166f9';
-   $password = '8e08be0f';
+         $host = 'nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+   $db_name = 'zzjr2yzlkkznr5gg';
+   $username = 'r7iz5wrci1spczw2';
+   $password = 'y1qnfwttrqsdtg20';
    $conn;
 
 
